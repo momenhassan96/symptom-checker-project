@@ -1,0 +1,169 @@
+.navbar-brand img
+{
+    width:50px;
+    height:40px;
+}
+.navbar
+{
+    background-color: #fff;
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:68455;
+}
+.nav-link 
+{
+    color:#13c5dd;
+}
+.navbar-brand
+{
+    color:#13c5dd;
+    font-family: 'Charm', cursive;
+}
+.navbar-brand i
+{
+    color:435ba1;
+}
+.dropdown-item 
+{
+   color:#13c5dd; 
+}
+.nav-link:hover
+{
+    color:#435ba1;
+}
+.dropdown-item:hover
+{
+    background-color: #13c5dd;
+    color:#fff;
+}
+
+#heart h2
+{
+     font-family: 'Charm', cursive;
+    color:#13c5dd;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+}
+#heart h3
+{
+     font-family: 'Charm', cursive;
+    color:#13c5dd;
+    font-weight:500;
+}
+
+#count
+{
+     font-family: 'Charm', cursive;
+    color:#13c5dd;
+    font-size:30px;
+    font-weight:600;
+}
+#result
+{
+    position:relative;
+    display: none;
+}
+
+#result p
+{
+    background-color: aqua;
+     color:darkgray;
+     font-family: 'ZCOOL XiaoWei', serif;
+    font-size:16px;
+    font-weight:300;
+}
+
+#result i
+{
+    position:absolute;
+    top:50px;
+    right:10px;
+    color:#fff;
+    cursor: pointer;
+}
+#btnCalc
+{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #13c5dd;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #fff;
+}
+
+.btnTop
+{
+    position:fixed;
+    bottom:10%;
+    right:5%;
+    background-color:#13c5dd;
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 30px;
+}
+
+.card-header a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.card-header
+{
+    background-color: #13c5dd;
+}
+.contact input
+{
+    border-radius: 0;
+    box-shadow: none;
+}
+.contact textarea
+{
+    height:200px;
+    border-radius: 0;
+}
+.get-start
+{
+    margin-top:100px;
+    color:#fff;
+    text-align: center;
+}
+.get-start hr
+{
+    width:50px;
+    background-color:#13c5dd;
+}
+.get-start:hover hr
+{
+    width:80px;
+}
+footer
+{
+    background-color: #2a303b;
+}
+footer hr
+{
+    background-color: #13c5dd;
+}
+.last-section .logo
+{
+    color: #ccc;
+    opacity: 0.1;
+}
+
+.last-section .social i:hover 
+{
+    
+    background-color: #fff;
+}
+.last-section p
+{
+    color:#fff;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+::placeholder
+{
+    font-family: 'Charm', cursive;
+}

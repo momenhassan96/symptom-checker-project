@@ -1,0 +1,395 @@
+*
+{
+    transition: all 1s;
+}
+.navbar-brand img
+{
+    width:50px;
+    height:40px;
+}
+.navbar
+{
+    background-color: #fff;
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:68455;
+}
+.nav-link 
+{
+    color:#13c5dd;
+}
+.navbar-brand
+{
+    color:#13c5dd;
+    font-family: 'Charm', cursive;
+}
+.navbar-brand i
+{
+    color:435ba1;
+}
+.dropdown-item 
+{
+   color:#13c5dd; 
+}
+
+.nav-link:hover
+{
+    color:#435ba1;
+}
+.dropdown-item:hover
+{
+    background-color: #13c5dd;
+    color:#fff;
+}
+/* end of nav bar*/
+
+/* start of foter*/
+.contact input
+{
+    border-radius: 0;
+    box-shadow: none;
+}
+.contact textarea
+{
+    height:200px;
+    border-radius: 0;
+}
+.get-start
+{
+    margin-top:100px;
+    color:#fff;
+    text-align: center;
+}
+.get-start hr
+{
+    width:50px;
+    background-color:#13c5dd;
+}
+.get-start:hover hr
+{
+    width:80px;
+}
+footer
+{
+    background-color: #2a303b;
+}
+footer hr
+{
+    background-color: #13c5dd;
+}
+.last-section .logo
+{
+    color: #ccc;
+    opacity: 0.1;
+}
+
+.last-section .social i:hover 
+{
+    
+    background-color: #fff;
+}
+.last-section p
+{
+    color:#fff;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+/*btnTop*/
+.btnTop
+{
+    position:fixed;
+    bottom:10%;
+    right:5%;
+    background-color:#13c5dd;
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 30px;
+}
+/* end of foter*/
+/* start of chcker*/
+.check-container h2 
+{
+    font-family: 'Charm', cursive;
+    color:#13c5dd;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+}
+.check-container
+{
+    overflow: hidden
+}
+.check-nav
+{
+    background-color: #13c5dd
+}
+.check-nav-container
+{
+    margin: 10px;
+    padding: 10px
+}
+.check-nav-container select
+{
+    background-color: rgba(19, 197, 221, .4);
+    border-radius: 5px
+}
+.check-nav-container input
+{
+    border-radius: 5px 
+}
+.check-nav-container .fas
+{
+   
+    font-size: 22;
+    padding: 5px
+}
+
+.space
+{
+    background-color: #13c5dd;
+    font-family: 'Charm', cursive;
+    color:#fff;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 8px;
+    margin-bottom: 0px    
+}
+::placeholder
+{
+    color:#13c5dd;
+     font-family: 'Charm', cursive;
+}
+
+.body-area
+{
+    position: relative;
+}
+
+.pic li
+{
+    list-style-type: none
+}
+.allImg
+{
+    position: relative;
+   
+}
+.circulatory
+{
+    position: absolute;
+    top: 51px;
+    left: 115px;
+}
+.circulatory img
+{
+    width:84px;
+    border-radius: 50%;
+}
+.system
+{
+    position: absolute;
+    top: 458px;
+    right: 25px;
+}
+.system img , .tract img , .immune img , .integumentary img , .lymphatic img , .nervous img , 
+ .musculoskeletal img , .respiratory img , .reproductive img , .urinary img
+{
+   width:84px; 
+}
+.tract
+{
+   position: absolute;
+   top: 222px;
+   right: 32px; 
+}
+.immune
+{
+  position: absolute;
+  top: 110px;
+  right: 62px;  
+}
+.integumentary
+{
+  position: absolute;
+  top: 570px;
+  right: 80px; 
+}
+.lymphatic
+{
+  position: absolute;
+  top: 335px;
+  right: 15px
+}
+.musculoskeletal
+{
+ position: absolute;
+ top: 560px;
+ left: 60px; 
+}
+.nervous
+{
+   position: absolute;
+  top: -2px;
+  right: 92px  
+}
+.respiratory
+{
+  position: absolute;
+  top: 168px;
+  left: 42px 
+}
+.reproductive
+{  
+  position: absolute;
+  top: 430px;
+  left: 16px 
+}
+.urinary
+{
+  position: absolute;
+  top: 290px;
+  left: 12px
+}
+@media (max-width: 1203px) {
+  .pic{
+      display: none;}
+    .allImg{margin-bottom: 40px;}
+    
+}
+
+
+.circulatory img:hover , .system img:hover , .tract img:hover , .immune img:hover , .integumentary img:hover , .lymphatic img:hover , .musculoskeletal img:hover ,  .nervous img:hover , .respiratory img:hover , .reproductive img:hover , .urinary img:hover
+
+{
+   transform:scale(1.1,1.1);
+    border-radius: 52%;
+}
+.pic a
+{   
+    text-decoration: none;
+}
+/* end of checker*/
+
+/* start of alphapet*/
+.alphapet li a
+{
+    
+    padding: 15px
+}
+.alphapet-content p
+{
+    border: 1px solid #13c5dd;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: none
+}
+#Quiz h2
+{
+     font-family: 'Charm', cursive;
+    color:#13c5dd;
+    font-size:30px;
+    font-weight:600;
+    text-align: center 
+}
+.quiz-1
+{
+   background-color: rgba(19, 197, 221, .4);
+    padding: 15px
+}
+.quiz-1  a
+{
+   padding: 15px 
+}
+.quiz-2 , quiz-4
+{
+  padding: 15px;
+      
+}
+.quiz-3
+{
+    background-color: rgba(19, 197, 221, .4);
+    padding: 15px;
+}
+
+.quiz-5 p
+{
+    border: 1px solid #13c5dd;
+    padding: 10px;
+    margin-top: 0;
+    border-radius: 5px
+        
+}
+.card-body
+{
+    padding:0;
+    text-align: center;
+}
+.card-body  p
+{
+    border-bottom:solid 1px #ccc;
+    margin-bottom: 5px;
+    padding:5px 0 ;
+    
+}
+.quiz-content p
+{
+    font-family: 'Crimson Text', serif;
+    font-size:20px;
+    font-weight:300;
+}
+.quiz-6
+{
+    border: non
+}
+.quiz-care p 
+{
+    border:solid 1px #13c5dd;
+    border-radius: 8px;
+    padding:5px 0 ;
+     font-family: 'Crimson Text', serif;
+    font-size:20px;
+    font-weight:300;
+    padding: 10px;
+    cursor: pointer;
+    margin: 1px
+        
+}
+.quiz-care h5
+{
+        cursor: pointer;
+}
+.check-nav-container
+{
+    display: flex;
+    padding: 5px
+}
+.option
+{
+   padding-right: 5px;
+    
+}
+.CHOOSE
+{
+   color: #13c5dd ;
+    background-color: #fff
+}
+.card-body a , .dropdown-item a , .quiz-1 a , .quiz-3 a , .quiz-5 a , .alphapet-content a
+{
+    text-decoration: none;
+}
+
+.jo
+{
+ color: #fff !important
+}
+.jo:hover
+{
+ color: #ccc !important
+}
+.btn-link
+{
+    text-decoration: none !important;
+}

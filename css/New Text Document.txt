@@ -1,0 +1,3 @@
+<div class="down" >
+<p class="aya">our goals and values</p>
+     </div>

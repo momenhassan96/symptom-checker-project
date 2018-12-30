@@ -1,0 +1,737 @@
+*{
+    
+    
+    transition:1s;
+   
+    
+}
+.navbar-brand img
+{
+    width:50px;
+    height:40px;
+}
+.navbar
+{
+    background-color: #fff;
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:68455;
+}
+.nav-link 
+{
+    color:#13c5dd;
+}
+.navbar-brand
+{
+    color:#13c5dd;
+    font-family: 'Charm', cursive;
+}
+.navbar-brand i
+{
+    color:435ba1;
+}
+.dropdown-item 
+{
+   color:#13c5dd; 
+}
+.nav-link:hover
+{
+    color:#435ba1;
+}
+.dropdown-item:hover
+{
+    background-color: #13c5dd;
+    color:#fff;
+}
+#onepage{
+    
+     background-color: rgb(248, 248, 248);
+
+   
+}
+
+#onepage .container .titlione {
+
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    
+}
+#onepage .container .titlione span {
+    
+    color: cadetblue ;
+    font-size: 50px;
+    
+}
+
+
+#onepage .container .titlione hr {
+    
+    width:50px;
+    border: solid 1px cadetblue;
+    
+}
+#onepage .container .titlione:hover hr {
+
+width: 80px;
+}
+
+
+#onepage .container .titlione h2 {
+        font-family: 'Charm', cursive;
+
+    color:#13c5dd ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+.imgeone {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgeone a {
+    
+    padding: 10px 30px;
+    background-color: cadetblue ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+.imgeone:hover a{
+    
+        background:#13c5dd;
+}
+.imgeone h5 {
+    
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size:20px;
+    font-weight:600;
+    color: #13c5dd;
+}
+.imgeone p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgeone img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+    object-fit: cover;
+}
+.imgeone:hover img  {
+    
+    transform: scale( 1.1,1.1);
+    
+}
+
+#threepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#threepage .container .titlitwo {
+
+width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+#threepage .container .titlitwo span {
+    
+    color: cadetblue ;
+    font-size: 50px;
+}
+
+
+#threepage .container .titlitwo hr {
+    
+    width: 8%;
+    border: solid 1px cadetblue;
+    
+}
+#threepage .container .titlitwo:hover hr {
+
+width: 13%;
+}
+
+#threepage .container .titlitwo h2 {
+        font-family: 'Charm', cursive;
+
+    color:#13c5dd ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+.imgetwo {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgetwo a {
+    
+    padding: 10px 30px;
+    background-color: cadetblue ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+.imgetwo:hover a{
+    
+        background: #13c5dd;
+}
+.imgetwo h5 {
+    
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size:20px;
+    font-weight:600;
+     color: #13c5dd;
+   
+}
+.imgetwo p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgetwo img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+}
+.imgetwo:hover  {
+    
+    transform: scale( 1.1,1.1);
+}
+
+#atherpage{
+    
+    background-image: url(../Images/arms-care-check-905874.jpg);
+    background-size: 100% 100%;
+
+}
+#atherpage .container-fluid{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color:#13c5dd;
+    
+}
+
+
+
+.all {
+    
+    text-align: center;
+}
+
+.all i {
+    
+    
+    font-size: 30px;
+    padding:0px 15px;
+    border-radius: 45%;
+    border-color: cadetblue;
+       color:white;
+
+
+}
+.all i:hover{
+    
+    transform: rotate(360deg);
+    
+}
+.all p {
+    
+    font-size: 14px;
+    padding-top:10px;
+    color:white;
+}
+#atherpage .container .titliather {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+position: relative;
+    padding: 50px;
+}
+#atherpage .container .titliather h2{
+    
+   color: white;
+        font-family: 'Charm', cursive;
+
+}
+#atherpage .container .titliather h2 i {
+    
+   color:white;
+    
+}
+#atherpage .container .titliather hr {
+    
+    width: 5%;
+    border: solid 1px white;
+    
+}
+#atherpage .container .titliather:hover hr {
+
+width: 8%;
+}
+
+#fourpage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#fourpage .container .titlifour {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+#fourpage .container .titlifour span {
+    
+    color: #007bff ;
+    font-size: 50px;
+    
+}
+
+#fourpage .container .titlifour hr {
+    
+    width: 10px;
+    border: solid 1px cadetblue;
+    
+}
+#fourpage .container .titlifour:hover hr {
+
+width: 20%;
+}
+
+#fourpage .container .titlifour h2 {
+        font-family: 'Charm', cursive;
+
+    color:#13c5dd ;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+ 
+    
+}
+.imgefour {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgefour a {
+    
+    padding: 10px 30px;
+    background-color: cadetblue ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+    
+}
+
+.imgefour:hover a{
+    
+        background: #13c5dd;
+}
+.imgefour h5 {
+    
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size:20px;
+    font-weight:600;
+    color: #13c5dd;
+    
+}
+.imgefour p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgefour img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+    }
+.imgefour:hover  {
+    
+    transform: scale( 1.1,1.1);
+}
+#fivepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#fivepage .container .titlifive {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+
+
+#fivepage .container .titlifive hr {
+    
+    width: 50px;
+    border: solid 1px cadetblue;
+    
+}
+#fivepage .container .titlifive:hover hr {
+
+width: 80px;
+}
+
+#fivepage .container .titlifive h2 {
+        font-family: 'Charm', cursive;
+
+    color:#13c5dd ;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+ 
+    
+}
+#fivepage .container .titlifive h2 i {
+    
+    color: cadetblue;
+    font-size:50px;
+    
+}
+.imgefive {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+}
+
+ 
+.imgefive a {
+    
+    padding: 10px 30px;
+    background-color: cadetblue ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+.imgefive:hover a{
+    
+        background: #13c5dd;
+}
+.imgefive h5 {
+    
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size:20px;
+    font-weight:600;
+    color: #13c5dd;
+    
+}
+.imgefive p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgefive img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+    
+}
+.imgefive:hover  {
+    
+    transform: scale( 1.1,1.1);
+}
+#sixepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#sixepage .container .titlisix {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 40px;
+}
+
+
+#sixepage .container .titlisix hr {
+    
+    width: 5%;
+    border: solid 1px cadetblue;
+    
+}
+#sixepage .container .titlisix:hover hr {
+
+width: 9%;
+}
+#sixepage .container .icon6 {
+    
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+    
+    
+}
+
+#sixepage .container .icon6 i {
+    
+    font-size:35px;
+    padding: 10px;
+    border-radius: 40%;
+    border: solid 1px;
+    color: #13c5dd;
+    border-color: #13c5dd ;
+    margin-left: 2px;
+    
+    
+}
+#sixepage .container .titlisix h2 {
+        font-family: 'Charm', cursive;
+
+    color:#13c5dd ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+#sixepage .container .titlisix h2 i {
+    color: cadetblue ;
+    font-size: 40px;
+    
+}
+.imgesix {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgesix a {
+    
+    padding: 10px 15px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+.imgesix:hover a{
+    
+        background: #13c5dd;
+}
+.imgesix h5 {
+    
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size:20px;
+    font-weight:600;
+    color: #13c5dd;
+    
+}
+.imgesix p {
+    
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size:20px;
+    font-weight:300;
+        font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+.imgesix img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+}
+.imgesix:hover  {
+    
+    transform: scale( 1.1,1.1);
+}
+.contact input
+{
+    border-radius: 0;
+    box-shadow: none;
+}
+.contact textarea
+{
+    height:200px;
+    border-radius: 0;
+}
+.get-start
+{
+    margin-top:100px;
+    color:#fff;
+    text-align: center;
+}
+.get-start hr
+{
+    width:50px;
+    background-color:#13c5dd;
+}
+.get-start:hover hr
+{
+    width:80px;
+}
+footer
+{
+    background-color: #2a303b;
+}
+footer hr
+{
+    background-color: #13c5dd;
+}
+.last-section .logo
+{
+    color: #ccc;
+    opacity: 0.1;
+}
+
+.last-section .social i:hover 
+{
+    
+    background-color: #fff;
+}
+.last-section p
+{
+    color:#fff;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.btnTop
+{
+    position:fixed;
+    bottom:10%;
+    right:5%;
+    background-color:#13c5dd;
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  .imgesix:hover , .imgeone:hover , .imgethree:hover , .imgetwo:hover , .imgefour:hover {
+    transform: none ;
+  }
+}
