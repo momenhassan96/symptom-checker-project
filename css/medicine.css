@@ -1,45 +1,58 @@
 *
 {
-    transition:all 1s
-}
-.navbar-brand img
-{
-    width:50px;
-    height:40px;
+     transition: all 1s;
 }
 .navbar
 {
-    background-color: #fff;
-    position:fixed;
+    background-color:#fff;
     right:0;
     left:0;
     z-index:68455;
+    padding:0;
+    position:fixed;
 }
 .nav-link 
 {
-    color:#13c5dd;
+    color:#1f1f1f;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+.nav-item:hover{
+    background-color:#008fd5;
+}
+.nav-item:hover .nav-link
+{
+    color:#fff;
+}
+
+    
+
 .navbar-brand
 {
-    color:#13c5dd;
-    font-family: 'Charm', cursive;
+    color:#008fd5;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-brand i
 {
-    color:435ba1;
+    color:#008fd5;
 }
 .dropdown-item 
 {
-   color:#13c5dd; 
+    color:#1f1f1f;
+    background-color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
-.nav-link:hover
+.dropdown-menu
 {
-    color:#435ba1;
+    background-color:#fff;
+    border-color: #fff;
+    color:#1f1f1f;
 }
+
 .dropdown-item:hover
 {
-    background-color: #13c5dd;
     color:#fff;
+    background-color:#008fd5;
 }
 .bacG{
   /*  background-image:url('../images/undraw_medicine_b1ol.png');
@@ -90,98 +103,31 @@
     background-color: #333;
 }
 
-.get-start
-{
-    margin-top:100px;
-    color:#fff;
-    text-align: center;
-}
-.get-start hr
-{
-    width:50px;
-    background-color:#13c5dd;
-}
-.get-start:hover hr
-{
-    width:80px;
-}
-footer
-{
-    background-color: #2a303b;
-}
-footer hr
-{
-    background-color: #13c5dd;
-}
-.last-section .logo
-{
-    color: #ccc;
-    opacity: 0.1;
-}
-
-.last-section .social i:hover 
-{
-    
-    background-color: #fff;
-}
-.last-section p
-{
-    color:#fff;
-    font-family: 'ZCOOL XiaoWei', serif;
-}
 
 
 
 
 
-.navbar-brand img
-{
-    width:50px;
-    height:40px;
-}
-.navbar
-{
-    background-color: #fff;
-    position:fixed;
-    right:0;
-    left:0;
-    z-index:684646465456;
-}
 
-.navbar-brand
-{
-    color:#13c5dd;
-    font-family: 'Charm', cursive;
-}
-.dropdown-item 
-{
-   color:#13c5dd; 
-}
-.nav-link:hover
-{
-    color:#435ba1!important;
-}
-.dropdown-item:hover
-{
-    background-color: #13c5dd;
-    color:#fff;
-}
+
+
+
 
 
 
 
 .PNamePage{
     text-align: center;
-    font-family: 'Charm', cursive;
-    font-size:40px;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
     font-weight:600;
-    color: #13c5dd;
+    color: #008fd5;
   
 }
 
 
 .LNamePage{
-    border: 2px solid #13c5dd;
+    border: 2px solid #008fd5;
     width: 60px;
 }
 .LNamePage:hover{
@@ -194,24 +140,37 @@ footer hr
  text-align: center;   
 }
 
+
+
+}
 .btn-link
 {
     text-decoration: none !important ;
-    color:#13c5dd !important;
+    color:#008fd5 !important;
     font-size:20px !important;
-    font-weight:400 !important;
+    font-weight:600 !important;
+  
+}
+.btn{
+        font-size: 1.5rem !important ;
+   
 }
 
 
 p{
     color: #fff;
+     font-family:'Source Sans Pro', sans-serif;
 }
 
 h5{
-    color:#13c5dd;
-    font-family: 'Crimson Text', serif;
+    color:#008fd5;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    
 }
+
+
+
 
 .Num{ 
     padding: 2px;
@@ -221,67 +180,126 @@ h5{
 }
 
 
-.contact input
+.contactinfo h2
+{
+    font-weight:700;
+    font-size:38px;
+    color:#008fd5;;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.contactinfo p
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+    padding-bottom:20px;
+     
+}
+.info i
+{
+    color:#fff;
+}
+.info span
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+}
+.info span a
+{
+    text-decoration: none;
+    color:#008fd5;
+}
+
+.social i
+{
+    text-align: center;
+    width:35px;
+    height:35px;
+    color:#008fd5;
+    border: solid 1px #999;
+    background-color: transparent;
+}
+.social i:hover 
+{
+    color:#1f5f8b;
+    background-color:#fff;
+    border: solid 1px #1f5f8b;
+}
+
+.social
+{
+    padding-bottom:50px;
+}
+.ourdata .heading h2
+{
+     font-weight:700;
+    font-size:38px;
+    color:#008fd5;;
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.ourdata .heading p
+{
+    font-weight:300;
+    font-size:18px;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dataform .form-control
 {
     border-radius: 0;
+    border: solid 1px #1f5f8b;
     box-shadow: none;
 }
-.contact textarea
+.dataform input
 {
-    height:200px;
-    border-radius: 0;
+    background-color: transparent;
 }
-.get-start
+
+.dataform textarea
 {
-    margin-top:100px;
+    background-color: transparent;
+}
+.dataform .btn
+{
+    background-color: #008fd5;
     color:#fff;
-    text-align: center;
-}
-.get-start hr
-{
-    width:50px;
-    background-color:#13c5dd;
-}
-.get-start:hover hr
-{
-    width:80px;
+    box-shadow: none;
+    transition:all .3s ease;
+    padding:10px 15px;
 }
 footer
 {
-    background-color: #2a303b;
-}
-footer hr
-{
-    background-color: #13c5dd;
-}
-.last-section .logo
-{
-    color: #ccc;
-    opacity: 0.1;
-}
-
-.last-section .social i:hover 
-{
-    
-    background-color: #fff;
+    background-color: #213540;
 }
 .last-section p
 {
     color:#fff;
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.first:hover 
+.last-section
 {
-    background: #ccc;
-    transform: scale(0.8);
-        
+    background-color: #1c2d36;
 }
-.btnTop
+.logo
 {
+    color:#008fd5;
+    opacity: 0.2;
+}
+hr
+{
+    background-color:#ccc;
+}
+.btnTop{
     position:fixed;
     bottom:10%;
     right:5%;
-    background-color:#13c5dd;
+    background-color:#008fd5;
     padding:10px;
     border-radius:15px;
     cursor: pointer;
@@ -289,3 +307,22 @@ footer hr
     font-size: 30px;
 }
 
+
+
+
+@media  (max-width: 992px) {
+  #nav .navbar-toggler {
+    border-color: green!important ;
+  }
+}
+@media  (max-width: 769px) {
+  .health .right:after , .health .left:before {
+    display: none;
+  }
+    
+}
+@media  (max-width: 464px) {
+  .ourmission .pic img {
+    height: 300px;
+  }
+}
