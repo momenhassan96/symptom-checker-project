@@ -2,18 +2,19 @@
         var scrTop= $(window).scrollTop();
         if(scrTop>150)
             {
-                $(".navbar").css("background-color","#13c5dd");
-                $(".nav-link").css("color","#fff");
-                $(".navbar-brand").css("color","#fff");
+                $(".navbar").css("background-color","rgba(255, 255, 255, 0.5)");
+                                $(".nav-link").css("color","black");
+
+                $(".navbar-brand").css("color","#008fd5");
+                $("#alon").css("color" , "#008fd5");
             }
-     
-        else 
+        else
             {
-                  $(".navbar").css("background-color","#fff");
-                $(".nav-link").css("color","#13c5dd");
-                $(".navbar-brand").css("color","#13c5dd");
+                  $(".navbar").css("background-color","white");
+                $(".nav-link").css("color","black");
+                $(".navbar-brand").css("color","##008fd5");
+                $("#alon").css("color" , "#008fd5");
             }
-     
      if(scrTop<150)
          {
              $(".btnTop").css("display","none");
