@@ -6,19 +6,23 @@
   
     <link rel="stylesheet" href="../css/bootstrap.min.css"/>
      <link rel="stylesheet" href="../css/branch.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+             <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet">
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
          <link rel="stylesheet" href="css/animate.css"> 
     
     </head>
 
     <body>
-        <div id="home">
+ <div id="home">
+        <div class="loading">
+            <div class="lds-heart"><div></div></div>
+        </div>
         <div class="overlay">
       <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand mx-4" href="../index.html"><i class="fas fa-stethoscope fa-2x mx-2"></i>Sypmtom Checker</a>
+          <a class="navbar-brand mx-4" href="../index.html"> <i id="alon" class="fas fa-stethoscope fa-2x mx-2"></i>Sypmtom Checker</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"><i class="fas fa-align-justify"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto px-5">
@@ -30,12 +34,12 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="../all/health&beauty.html">Health & Beauty</a>
+          <a class="dropdown-item" href="health&beauty.html">Health & Beauty</a>
           <a class="dropdown-item" href="medicine.html">Medicine & Diseas</a>
         </div>
       </li>
       <li class="nav-item active mx-2">
-        <a class="nav-link" href="../all/health.html">Sypmtom Checker</a>
+        <a class="nav-link" href="health.html">Sypmtom Checker</a>
       </li>
       <li class="nav-item active mx-2">
         <a class="nav-link" href="about.html">About Us</a>
@@ -44,8 +48,9 @@
     </ul>
   </div>
 </nav>
-</div>
-</div>
+</div>           
+            
+        </div>
         <div id="pageF" class="py-5 ">
         <div class="container">
         <div class="row">
@@ -110,40 +115,62 @@
         
         
   
-          <footer class="mt-5 pb-3">
-            <div class="container-fluid">
+         <footer>
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="get-start">
-                            <h4>Contact Us</h4>
-                            <hr>
-                            <p class="my-3">Epsum factorial non deposit quid pro quo hic escorol.<br> Olypian quarrels et gorilla congolium.</p>
+                        <div class="contactinfo my-5">
+                            <h2>CONTACT INFO</h2>
+                            <p>Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique. Cum sociis natoque penatibus et magnis dis parturient montesmus</p>
+                        <div class="info">
+                            <i class="fas fa-map-marker-alt px-2 my-4"> </i>
+                             <span>New Street 22545, Nexa Road, New York City, USA</span>
+                           
+                            <br/>
+                            <i class="fas fa-envelope px-2 my-4"></i>
+                             <span><a href="#">hello@uigrid.com</a></span>
+                            <br/>
+                            <i class="fas fa-phone px-2 my-4"></i>
+                             <span>001-000-000-000</span>
                         </div>
+                           
+                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="contact my-5">
-                        <input type="text" placeholder="Name :" required class="form-control my-2"/>
-                        <input type="email" placeholder="E-mail :" required class="form-control my-2"/>
-                        <input type="text" placeholder="Phone :" required class="form-control my-2"/>
-                        <textarea class="form-control my-2" placeholder="Message :"></textarea>
-                        <button class="btn btn-info my-2 float-right">Submit</button>
-                    </div>
-                </div>
+                         <div class="ourdata  m-auto">
+            <div class="heading m-4">
+                <h2>Get In Touch</h2>
+                <p>Let's work together.</p>
+            </div>
+            <div class="dataform m-4">
+                <form >
+            <input type="text" placeholder="Your Name"class="form-control my-2"/>
+             
+            <input type="email" placeholder="Your Email"class="form-control my-2"/>
+               
+                <input type="number" placeholder="Phone Number"class="form-control my-2"/>
+               
+                <textarea class="form-control" placeholder="Your Message" rows="5"></textarea>
+                <button class="btn mt-3">Send Message</button>
+                </form>
             </div>
         </div>
-            <hr>
-                <div class="last-section">
-                    <div class="container-fluid">
+                    </div>
+            
+                </div>
+            </div>
+                <div class="last-section pt-4">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-12 my-3 pl-5">
-                                <p>Copyright © 2005 - 2018 Healthline Media. All rights reserved. Our content does not constitute a medical consultation. See a certified medical professional for diagnosis.</p>
+                            <div class="col-xl-4 col-lg-4 col-md-12  pl-5">
+                                <p>Copyright © 2005 - 2018 Healthline Media. All rights reserved.</p>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-12 my-4">
-                                    <div class="logo w-75 m-auto text-center py-2">
+                            <div class="col-xl-4 col-lg-4 col-md-12 ">
+                                    <div class="logo w-75 m-auto text-center">
                                         <i class="fas fa-stethoscope fa-3x"></i>
                                     </div>
                                     </div>
-                <div class="col-xl-4 col-lg-4 col-md-12 my-5 px-5 text-center">
+                <div class="col-xl-4 col-lg-4 col-md-12  px-5 text-center">
                 <div class="social">
                     <a href="#"> <i class="fab fa-facebook-f mx-2 border p-2"></i></a>
                     <a href="#"> <i class="fab fa-twitter mx-2 border p-2"></i></a>
@@ -159,9 +186,8 @@
                     <div class="clearfix"></div>
                 </div>
         </footer>
-    
-    
-    
+            
+        
     
     
     
